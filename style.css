@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(245, 225, 199);
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(68, 65, 65);
+}
+button {
+    padding: 25px 35px;
+    margin: 10px;
+    background-color: rgb(96, 202, 202);
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: darkblue;
+    border: none;
+}
+#btn {
+    display: flex;
+    justify-content: center;
+}
+button:hover {
+    background-color: rgb(39, 105, 105);
+    cursor: pointer;
+    color: rgb(226, 220, 220);
+}
